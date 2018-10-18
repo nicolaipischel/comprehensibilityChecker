@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="comprehensibilityChecker.UI.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <Style x:Key="ComprehensibilityIndexControlStyle" TargetType="{x:Type Button}">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <StackPanel Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <Button Content="{Binding ComprehensibilityIndex}" 
+                    Command="{Binding SelectManuscriptCommand}"
+                    Width="100"
+                    Style="{StaticResource ComprehensibilityIndexControlStyle}"/>
+            <StackPanel Orientation="Horizontal" 
+                        HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="&#x2300; Satzlänge:"/>
+                    <Label Content="{Binding AverageSentenceLengthNumber}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="&#x2300; Wortlänge:"/>
+                    <Label Content="{Binding AverageWordLengthNumber}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Anzahl Wörter:"/>
+                    <Label Content="{Binding WordCountNumber}"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

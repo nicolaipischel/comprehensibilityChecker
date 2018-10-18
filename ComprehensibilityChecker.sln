@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comprehensibilityChecker.UI", "comprehensibilityChecker.UI\comprehensibilityChecker.UI.csproj", "{5304549F-7CE6-4AA5-844D-FDA5D10F7B0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comprehensibilityChecker.Contracts", "comprehensibilityChecker.Contracts\comprehensibilityChecker.Contracts.csproj", "{7F9B2027-2CB8-49C7-BC7A-5C9173814BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comprehensibilityChecker.Adapters", "comprehensibilityChecker.Adapters\comprehensibilityChecker.Adapters.csproj", "{29050BD4-B777-4541-B1DE-7B9BED986013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comprehensibilityChecker.Adapters.Test", "comprehensibilityChecker.Adapters.Test\comprehensibilityChecker.Adapters.Test.csproj", "{187BAF1D-8D42-4F18-9B4B-68B8E9562FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comprehensibilityChecker.Core", "comprehensibilityChecker.Core\comprehensibilityChecker.Core.csproj", "{96BC6A91-662C-4C7A-9673-975512EA05D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comprehensibilityChecker.Core.Test", "comprehensibilityChecker.Core.Test\comprehensibilityChecker.Core.Test.csproj", "{74EF3DE8-2363-4930-B96D-7E642637910A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comprehensibilityChecker.Integrations", "comprehensibilityChecker.Integrations\comprehensibilityChecker.Integrations.csproj", "{AC303E0B-7015-4F83-9741-3D20B7066265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comprehensibilityChecker.Integrations.Test", "comprehensibilityChecker.Integrations.Test\comprehensibilityChecker.Integrations.Test.csproj", "{FF1CFB7F-EDAC-4E59-A5A0-E40AB23E2560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comprehensibilityChecker", "comprehensibilityChecker\comprehensibilityChecker.csproj", "{4530C5EE-BE12-4B54-A57F-01D3AE5F53E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3E1A69F7-E563-4D1D-A03B-5704FAE574E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5304549F-7CE6-4AA5-844D-FDA5D10F7B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5304549F-7CE6-4AA5-844D-FDA5D10F7B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5304549F-7CE6-4AA5-844D-FDA5D10F7B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5304549F-7CE6-4AA5-844D-FDA5D10F7B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F9B2027-2CB8-49C7-BC7A-5C9173814BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9B2027-2CB8-49C7-BC7A-5C9173814BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9B2027-2CB8-49C7-BC7A-5C9173814BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9B2027-2CB8-49C7-BC7A-5C9173814BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29050BD4-B777-4541-B1DE-7B9BED986013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29050BD4-B777-4541-B1DE-7B9BED986013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29050BD4-B777-4541-B1DE-7B9BED986013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29050BD4-B777-4541-B1DE-7B9BED986013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187BAF1D-8D42-4F18-9B4B-68B8E9562FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187BAF1D-8D42-4F18-9B4B-68B8E9562FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187BAF1D-8D42-4F18-9B4B-68B8E9562FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187BAF1D-8D42-4F18-9B4B-68B8E9562FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BC6A91-662C-4C7A-9673-975512EA05D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BC6A91-662C-4C7A-9673-975512EA05D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BC6A91-662C-4C7A-9673-975512EA05D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BC6A91-662C-4C7A-9673-975512EA05D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74EF3DE8-2363-4930-B96D-7E642637910A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EF3DE8-2363-4930-B96D-7E642637910A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EF3DE8-2363-4930-B96D-7E642637910A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74EF3DE8-2363-4930-B96D-7E642637910A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC303E0B-7015-4F83-9741-3D20B7066265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC303E0B-7015-4F83-9741-3D20B7066265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC303E0B-7015-4F83-9741-3D20B7066265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC303E0B-7015-4F83-9741-3D20B7066265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1CFB7F-EDAC-4E59-A5A0-E40AB23E2560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1CFB7F-EDAC-4E59-A5A0-E40AB23E2560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1CFB7F-EDAC-4E59-A5A0-E40AB23E2560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1CFB7F-EDAC-4E59-A5A0-E40AB23E2560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4530C5EE-BE12-4B54-A57F-01D3AE5F53E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4530C5EE-BE12-4B54-A57F-01D3AE5F53E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4530C5EE-BE12-4B54-A57F-01D3AE5F53E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4530C5EE-BE12-4B54-A57F-01D3AE5F53E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{187BAF1D-8D42-4F18-9B4B-68B8E9562FE2} = {3E1A69F7-E563-4D1D-A03B-5704FAE574E4}
+		{74EF3DE8-2363-4930-B96D-7E642637910A} = {3E1A69F7-E563-4D1D-A03B-5704FAE574E4}
+		{FF1CFB7F-EDAC-4E59-A5A0-E40AB23E2560} = {3E1A69F7-E563-4D1D-A03B-5704FAE574E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8630014-1730-4457-8891-E90A4A245FDF}
+	EndGlobalSection
+EndGlobal
